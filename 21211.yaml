@@ -1,0 +1,11 @@
+proxies:
+  - name: "109-UST-7-eas4"
+    type: vless
+    server: 109-1.gztk.xyz
+    port: 59155
+    uuid: 2a78f648-dbe4-42f8-8f10-efac058ad88a
+    flow: xtls-rprx-vision
+    encryption: none
+    network: tcp
+    tls: true
+    servername: yahoo.com
